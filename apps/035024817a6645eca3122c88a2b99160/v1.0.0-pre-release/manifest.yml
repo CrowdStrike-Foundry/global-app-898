@@ -1,0 +1,38 @@
+app_id: 035024817a6645eca3122c88a2b99160
+name: Global-app-898
+description: ""
+logo: ""
+vendor: Okta
+vendor_products:
+    - OktaIdentity
+    - OktaUserLog
+use_case: Identity & Access
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows: []
+parsers:
+    - name: okta-898
+      description: okta parser with 898 release
+      path: parsers/okta-898/script.txt
+      fields_to_tag: []
+      fields_to_remove: []
+      is_data_connector: true
+      tests_path: ""
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
